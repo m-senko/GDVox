@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"1d5b294432e4c918","type":"file","file":"Архитектурная карта систем (Взаимодействие С++ и Godot 4).md","x":80,"y":142,"width":1600,"height":1058},
+		{"id":"05d59137e278f638","type":"file","file":"Дальний горизонт мира (LOD & Heightmaps).md","x":80,"y":1280,"width":1600,"height":2938},
+		{"id":"91216e9bfbc63099","x":2720,"y":142,"width":1243,"height":2818,"type":"file","file":"Конвейер Изменения Вокселя (set_voxel) с изменением разрядности.md"},
+		{"id":"ced08334a7b5594c","x":2720,"y":3040,"width":1243,"height":4624,"type":"file","file":"Оптимизация графики (Greedy Meshing).md"},
+		{"id":"4fa6f73c9aad2bfb","x":4037,"y":148,"width":1444,"height":2892,"type":"file","file":"Принципы управления памятью (Chunk Memory).md"},
+		{"id":"b288f028878c5449","x":4037,"y":3120,"width":1444,"height":3462,"type":"file","file":"Сохранение изменений ландшафта (Delta Storage).md"},
+		{"id":"325282cd15c61129","type":"file","file":"Жизненный цикл чанка (I-O & Стриминг).md","x":1760,"y":148,"width":880,"height":1892},
+		{"id":"7b2c9c380350f7b9","x":1760,"y":2120,"width":880,"height":4072,"type":"file","file":"Класс-мост VoxelWorld (GDExtension).md"}
+	],
+	"edges":[]
+}

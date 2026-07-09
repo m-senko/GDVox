@@ -1,9 +1,39 @@
 @use "./variables.scss" as *;
 
+/* Глобальные настройки цвета текста для Mermaid */
 div.mermaid {
   font-size: 14px !important;
   
-  text, span, .node, .label {
-    font-size: 14px !important;
+  /* Принудительно красим текст и элементы в адаптивный цвет Quartz */
+  text, span, p, .node, .label, .edgeLabel, .labelText, .actor {
+    fill: var(--dark) !important;       /* Для SVG-элементов */
+    color: var(--dark) !important;      /* Для HTML-нод */
   }
+
+  /* Исправление стрелок и линий, если они тоже исчезают */
+  .marker, #mermaid-dom-id-1, path.light {
+    stroke: var(--darkgray) !important;
+  }
+}
+
+/* Исправление рендеринга и скролла Mermaid на смартфонах */
+.mermaid {
+  display: block !important;
+  visibility: visible !important;
+  width: 100% !important;
+  min-height: 250px !important;
+  overflow-x: auto !important;
+  background: transparent !important;
+
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+}
+
+div.mermaid-container {
+  display: block !important;
+  clear: both !important;
+  width: 100% !important;
 }

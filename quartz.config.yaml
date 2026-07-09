@@ -67,7 +67,7 @@ plugins:
       callouts: true
       mermaid: true
       parseTags: true
-      parseArrows: true
+      parseArrows: false
       parseBlockReferences: true
       enableInHtmlEmbed: false
       enableYouTubeEmbed: true
